@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class DemoSceneManager : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class DemoSceneManager : MonoBehaviour
 
     [SerializeField]
     private Transform coneTransform = null;
+
+    [SerializeField]
+    private XRSocketInteractor[] socketInteractors;
 
     private Vector3 initialCratePosition;
     private Quaternion initialCrateRotation;
@@ -28,8 +32,27 @@ public class DemoSceneManager : MonoBehaviour
 
     public void ResetTransforms()
     {
+        StartCoroutine(ResetTransformsAsync());
+    }
+
+    private IEnumerator ResetTransformsAsync()
+    {
+        foreach (var socket in socketInteractors)
+        {
+            socket.enabled = false;
+        }
+
+        yield return new WaitForEndOfFrame();
+
         SetTransform(crateTransform, initialCratePosition, initialCrateRotation);
         SetTransform(coneTransform, initialConePosition, initialConeRotation);
+
+        yield return new WaitForEndOfFrame();
+
+        foreach (var socket in socketInteractors)
+        {
+            socket.enabled = true;
+        }
     }
 
     private void SetTransform(Transform transform, Vector3 position, Quaternion rotation)
