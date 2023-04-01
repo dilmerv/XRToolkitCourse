@@ -579,9 +579,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>[Title]</b>
+  m_text: '<b>XR direct interactors with XR simple interactables.</b>
 
-    [Informationa about your scene functionality]'
+    Reach
+    over each flash light, hold the select button & trigger button, this will turn
+    the flash lights on and off.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
