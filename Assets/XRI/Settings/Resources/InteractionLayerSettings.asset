@@ -21,8 +21,8 @@ MonoBehaviour:
   - UI
   - LeftHandOnly
   - RightHandOnly
-  - 
-  - 
+  - RayInteractorsOnly
+  - DirectInteractorsOnly
   - 
   - 
   - 

@@ -8,3 +8,4 @@ XR Toolkit course supplemental source code examples and MVP project
 * **XRDirectInteractorsWithSimple:** XR Direct interactors with XR Simple Interactables by controlling 3 flash lights and binding interactable events to LoggerUI.
 * **XRDirectInteractorsHaptics&Audio:** Same as above but with additional haptics and audio during interactions.
 * **XRAffordanceSystem:** XR Direct interactors with affordance system which applies scaling, color, and rotation changes to objects.
+* **XRInteractionLayers:** Using interaction layers to restrict which objects can be interacted with XR Direct And XR Ray interactors
