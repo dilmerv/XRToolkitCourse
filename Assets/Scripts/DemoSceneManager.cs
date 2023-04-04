@@ -12,6 +12,9 @@ public class DemoSceneManager : MonoBehaviour
     private Transform coneTransform = null;
 
     [SerializeField]
+    private float timeToWaitDuringReset = 0.5f;
+
+    [SerializeField]
     private XRSocketInteractor[] socketInteractors;
 
     [SerializeField]
@@ -49,12 +52,12 @@ public class DemoSceneManager : MonoBehaviour
             socket.enabled = false;
         }
 
-        yield return new WaitForEndOfFrame();
+        yield return new WaitForSeconds(timeToWaitDuringReset);
 
         SetTransform(crateTransform, initialCratePosition, initialCrateRotation);
         SetTransform(coneTransform, initialConePosition, initialConeRotation);
 
-        yield return new WaitForEndOfFrame();
+        yield return new WaitForSeconds(timeToWaitDuringReset);
 
         foreach (var socket in socketInteractors)
         {
