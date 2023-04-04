@@ -11,3 +11,4 @@ XR Toolkit course supplemental source code examples and MVP project
 * **XRInteractionLayers:** Using interaction layers to restrict which objects can be interacted with XR Direct And XR Ray interactors
 * **XRRayInteractorsWithSimple:** This demo shows you how to can do hover and selections by using a Ray Interactor with a straight line, Ray Interactor with a bezier curve, and how to change their default line colors
 * **XRDebuggingDemo:** This demo allows you to play a very basic game where your goal is simply to place the cone on top of the crate to win. We will be using this demo to show you how to debug
+* * **XRDirectRayPokeWithGrab:** This demo is an intro to XR Grab Interactable with physical components that allow you to throw a ball and aim at a basket
