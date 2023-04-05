@@ -1959,6 +1959,7 @@ GameObject:
   - component: {fileID: 9141970046422311454}
   - component: {fileID: 270815812931338550}
   - component: {fileID: 6172581758314648964}
+  - component: {fileID: 3673594474505391601}
   m_Layer: 5
   m_Name: XRRayWithUI_SettingsUI
   m_TagString: Untagged
@@ -1987,7 +1988,7 @@ RectTransform:
   - {fileID: 5399811970222736301}
   - {fileID: 4159777893443824980}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 20, y: -35, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2120,6 +2121,25 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &3673594474505391601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064513848253839082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &5260512022331182647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2479,7 +2499,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5894009725540124684}
   m_HandleRect: {fileID: 7134119374206301972}
   m_Direction: 2
-  m_Value: 1.0000001
+  m_Value: 0.9999996
   m_Size: 0.28752908
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4654,7 +4674,129 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Amet massa vitae tortor condimentum
+    lacinia quis. Eu nisl nunc mi ipsum faucibus. Nec ullamcorper sit amet risus
+    nullam eget. Nam at lectus urna duis convallis convallis tellus id interdum.
+    Id neque aliquam vestibulum morbi blandit cursus risus. Nullam vehicula ipsum
+    a arcu cursus vitae. Tellus in hac habitasse platea dictumst. Sed velit dignissim
+    sodales ut. Venenatis a condimentum vitae sapien.
+
+    
+
+    Diam quis enim
+    lobortis scelerisque fermentum dui faucibus in ornare. Viverra mauris in aliquam
+    sem. In ornare quam viverra orci. Nunc lobortis mattis aliquam faucibus purus
+    in massa tempor nec. Donec adipiscing tristique risus nec feugiat in fermentum.
+    Amet porttitor eget dolor morbi. Vel pharetra vel turpis nunc. Id velit ut tortor
+    pretium viverra suspendisse potenti. Vestibulum morbi blandit cursus risus at
+    ultrices mi tempus imperdiet. Vitae congue mauris rhoncus aenean vel elit. Massa
+    tempor nec feugiat nisl pretium. In mollis nunc sed id semper risus in hendrerit
+    gravida. Netus et malesuada fames ac turpis. Lacus viverra vitae congue eu consequat
+    ac felis. Ultrices vitae auctor eu augue ut lectus arcu. Sed egestas egestas
+    fringilla phasellus faucibus scelerisque eleifend donec.
+
+    
+
+    Netus et
+    malesuada fames ac turpis egestas sed tempus urna. Quam adipiscing vitae proin
+    sagittis nisl rhoncus mattis rhoncus. Augue neque gravida in fermentum et sollicitudin.
+    Enim ut sem viverra aliquet. Volutpat sed cras ornare arcu. Quis blandit turpis
+    cursus in hac. Laoreet non curabitur gravida arcu ac tortor dignissim. Tellus
+    elementum sagittis vitae et leo duis ut. Orci sagittis eu volutpat odio. Morbi
+    blandit cursus risus at ultrices mi tempus imperdiet. Enim lobortis scelerisque
+    fermentum dui. Ultricies mi quis hendrerit dolor magna eget est lorem ipsum.
+    Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. Iaculis urna
+    id volutpat lacus laoreet non curabitur gravida arcu. Vitae aliquet nec ullamcorper
+    sit amet risus. Viverra vitae congue eu consequat ac felis. Ac turpis egestas
+    maecenas pharetra convallis. Dignissim cras tincidunt lobortis feugiat vivamus
+    at augue eget. Ac turpis egestas integer eget aliquet nibh praesent tristique
+    magna. Quis commodo odio aenean sed adipiscing.
+
+    
+
+    At consectetur lorem
+    donec massa sapien faucibus. Augue mauris augue neque gravida in. Consequat mauris
+    nunc congue nisi vitae suscipit. Amet facilisis magna etiam tempor. Pretium vulputate
+    sapien nec sagittis aliquam malesuada bibendum arcu vitae. Lacus suspendisse
+    faucibus interdum posuere lorem ipsum dolor. Amet luctus venenatis lectus magna.
+    Amet risus nullam eget felis eget nunc. Tristique sollicitudin nibh sit amet
+    commodo nulla. Feugiat nisl pretium fusce id velit ut tortor pretium viverra.
+    Risus pretium quam vulputate dignissim suspendisse in. Scelerisque felis imperdiet
+    proin fermentum. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat.
+
+    
+
+    Lacus
+    vel facilisis volutpat est velit. Consequat interdum varius sit amet mattis.
+    Quam pellentesque nec nam aliquam sem. Nec ullamcorper sit amet risus nullam
+    eget felis eget. Et netus et malesuada fames. Duis ut diam quam nulla porttitor.
+    Viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Semper viverra
+    nam libero justo laoreet sit amet. Eget dolor morbi non arcu risus quis varius.
+    Fermentum dui faucibus in ornare quam viverra orci. Tellus cras adipiscing enim
+    eu turpis egestas pretium. Et malesuada fames ac turpis egestas maecenas pharetra
+    convallis posuere. Viverra nam libero justo laoreet. Mi quis hendrerit dolor
+    magna eget est.
+
+    
+
+    Porttitor lacus luctus accumsan tortor posuere ac.
+    Egestas integer eget aliquet nibh praesent tristique magna sit. Leo urna molestie
+    at elementum eu facilisis. Ipsum a arcu cursus vitae congue mauris rhoncus aenean
+    vel. Sit amet cursus sit amet dictum sit amet justo donec. Ut morbi tincidunt
+    augue interdum velit euismod. Cras tincidunt lobortis feugiat vivamus. Dui nunc
+    mattis enim ut. Sem nulla pharetra diam sit amet nisl suscipit. Sed felis eget
+    velit aliquet sagittis id consectetur purus ut. Ut tristique et egestas quis
+    ipsum suspendisse ultrices.
+
+    
+
+    Augue lacus viverra vitae congue. Morbi
+    blandit cursus risus at ultrices mi. Magna ac placerat vestibulum lectus mauris
+    ultrices eros in cursus. Gravida neque convallis a cras semper. Ornare lectus
+    sit amet est placerat. Egestas fringilla phasellus faucibus scelerisque eleifend
+    donec pretium vulputate sapien. Mauris pellentesque pulvinar pellentesque habitant
+    morbi. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Fermentum
+    leo vel orci porta non pulvinar. Elit pellentesque habitant morbi tristique senectus
+    et netus et malesuada. Erat pellentesque adipiscing commodo elit at imperdiet.
+    Congue nisi vitae suscipit tellus.
+
+    
+
+    Laoreet id donec ultrices tincidunt.
+    Mauris pellentesque pulvinar pellentesque habitant morbi. Id porta nibh venenatis
+    cras sed. Odio eu feugiat pretium nibh ipsum consequat nisl vel pretium. Condimentum
+    vitae sapien pellentesque habitant morbi tristique senectus et netus. Ipsum dolor
+    sit amet consectetur adipiscing elit. Fermentum dui faucibus in ornare quam viverra.
+    Nec sagittis aliquam malesuada bibendum. Sed turpis tincidunt id aliquet risus.
+    Massa tempor nec feugiat nisl pretium fusce id. Eu volutpat odio facilisis mauris
+    sit amet. Ut placerat orci nulla pellentesque. Id interdum velit laoreet id donec.
+    Facilisis magna etiam tempor orci eu lobortis elementum.
+
+    
+
+    Facilisi
+    morbi tempus iaculis urna. Nulla porttitor massa id neque aliquam vestibulum.
+    Id donec ultrices tincidunt arcu non sodales neque sodales. Hendrerit dolor magna
+    eget est lorem ipsum dolor sit. Tincidunt vitae semper quis lectus nulla at volutpat.
+    Vitae elementum curabitur vitae nunc sed velit dignissim. Pharetra pharetra massa
+    massa ultricies. Viverra orci sagittis eu volutpat odio facilisis mauris sit
+    amet. Ac turpis egestas sed tempus. Sapien et ligula ullamcorper malesuada proin
+    libero nunc consequat. Sed augue lacus viverra vitae congue eu. Posuere urna
+    nec tincidunt praesent semper feugiat nibh sed pulvinar. Duis ultricies lacus
+    sed turpis tincidunt. Interdum posuere lorem ipsum dolor sit amet consectetur.
+    Tellus in hac habitasse platea dictumst vestibulum rhoncus est.
+
+    
+
+    At
+    quis risus sed vulputate odio ut enim blandit volutpat. Et malesuada fames ac
+    turpis egestas maecenas pharetra convallis. Netus et malesuada fames ac turpis
+    egestas integer eget aliquet. Vivamus arcu felis bibendum ut tristique et. Cras
+    semper auctor neque vitae tempus quam pellentesque. Vel risus commodo viverra
+    maecenas accumsan lacus vel facilisis. Aenean et tortor at risus viverra adipiscing.
+    Aliquam etiam erat velit scelerisque in dictum non. Eleifend quam adipiscing
+    vitae proin sagittis nisl. Ultrices in iaculis nunc sed.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
