@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class XRRayWithUI_UIManager : MonoBehaviour
@@ -12,5 +10,10 @@ public class XRRayWithUI_UIManager : MonoBehaviour
         bool isActive = uiToControl.activeSelf;
         isActive = !isActive;
         uiToControl.SetActive(isActive);
+    }
+
+    public void ClearAllSettings()
+    {
+        Logger.Instance.LogInfo("Clearning all settings");
     }
 }
