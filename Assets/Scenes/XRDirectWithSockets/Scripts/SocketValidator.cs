@@ -1,29 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
 
 [RequireComponent(typeof(XRSocketInteractor))]
 public class SocketValidator : MonoBehaviour
 {
-    private XRSocketInteractor socketInteractor = null;
+    private XRSocketInteractor socketInteractor;
 
-    // Start is called before the first frame update
     void Start()
     {
         socketInteractor = GetComponent<XRSocketInteractor>();
-        socketInteractor.hoverEntered.AddListener((hoverEvent) =>
-        {
-            if(socketInteractor.hasSelection)
-            {
-                Logger.Instance.LogWarning("There is an object already in socket");
-            }
-        });
+        socketInteractor.hoverEntered.AddListener(Validator());
     }
 
-    // Update is called once per frame
-    void Update()
+    private UnityAction<HoverEnterEventArgs> Validator()
     {
-        
+        return (hoverEvent) =>
+        {
+            if (socketInteractor.hasSelection)
+            {
+                Logger.Instance.LogError("There is already an object on this socket");
+            }
+        };
     }
 }

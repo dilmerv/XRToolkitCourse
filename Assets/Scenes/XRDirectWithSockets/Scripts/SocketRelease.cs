@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 [RequireComponent(typeof(XRSocketInteractor))]
-public class SocketUsed : MonoBehaviour
+public class SocketRelease : MonoBehaviour
 {
     [SerializeField]
-    private float releaseAfterSeconds = 0.5f;
+    private float releaseAfterSeconds = 0.15f;
 
     [SerializeField]
-    private float selectionCheckerSeconds = 0.5f;
+    private float frequencyCheckForIntersects = 0.5f;
 
     private XRSocketInteractor socketInteractor;
 
@@ -18,7 +18,7 @@ public class SocketUsed : MonoBehaviour
 
     private Collider socketCollider;
 
-    void Start()
+    private void Start()
     {
         socketInteractor = GetComponent<XRSocketInteractor>();
         socketCollider = GetComponent<Collider>();
@@ -26,24 +26,23 @@ public class SocketUsed : MonoBehaviour
         socketInteractor.selectEntered.AddListener((s) =>
         {
             lastSelected = s.interactableObject;
-            StartCoroutine(Release(s.interactableObject));
+            // coroutine to release objects with physics
+            StartCoroutine(Release(lastSelected));
         });
-        
-        // if object was selected and it no longer intercepts then
-        // re-activate socket
-        StartCoroutine(MonitorSelectionColliders());
+
+        // if object was selected and it no longer intercects
+        // then re-activate socket
+        StartCoroutine(MonitorIntersectsBetweenColliders());
     }
 
     private IEnumerator Release(IXRSelectInteractable selectInteractable)
     {
         yield return new WaitForSeconds(releaseAfterSeconds);
         socketInteractor.socketActive = false;
-
-        selectInteractable.transform
-            .GetComponent<Rigidbody>().isKinematic = false;
+        selectInteractable.transform.GetComponent<Rigidbody>().isKinematic = false;
     }
 
-    private IEnumerator MonitorSelectionColliders()
+    private IEnumerator MonitorIntersectsBetweenColliders()
     {
         while (true)
         {
@@ -51,15 +50,15 @@ public class SocketUsed : MonoBehaviour
             {
                 socketInteractor.socketActive = true;
             }
-            yield return new WaitForSeconds(selectionCheckerSeconds);
+            yield return new WaitForSeconds(frequencyCheckForIntersects);
         }
     }
 
     private bool AnyColliderIntercects(IEnumerable<Collider> targetColliders)
     {
-        foreach (Collider targetCollider in targetColliders)
+        foreach (Collider collider in targetColliders)
         {
-            if (socketCollider.bounds.Intersects(targetCollider.bounds))
+            if (socketCollider.bounds.Intersects(collider.bounds))
             {
                 return true;
             }

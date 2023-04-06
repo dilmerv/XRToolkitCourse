@@ -164,7 +164,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042103562929265918}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.535, y: 0.709, z: 0.2678}
   m_LocalScale: {x: 0.05139549, y: 0.0510775, z: 0.09843801}
   m_ConstrainProportionsScale: 0
@@ -723,6 +723,7 @@ GameObject:
   - component: {fileID: 8350183866619999295}
   - component: {fileID: 5832114022543563512}
   - component: {fileID: 6516422056747995085}
+  - component: {fileID: 2530256567731075164}
   m_Layer: 0
   m_Name: Socket
   m_TagString: Untagged
@@ -835,4 +836,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   releaseAfterSeconds: 0.1
-  selectionCheckerSeconds: 1
+  frequencyCheckForIntersects: 0.5
+--- !u!114 &2530256567731075164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8942436884718343634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e282fedcc867d7242bbe7e2015b24c9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

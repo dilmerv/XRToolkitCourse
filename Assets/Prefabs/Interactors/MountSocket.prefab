@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 2013214121470268331}
   - component: {fileID: 8942633102502754233}
   - component: {fileID: 6818360630596851528}
+  - component: {fileID: 4012208307150492636}
   m_Layer: 0
   m_Name: Socket
   m_TagString: Untagged
@@ -229,7 +230,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   releaseAfterSeconds: 0.1
-  selectionCheckerSeconds: 1
+  frequencyCheckForIntersects: 0.5
+--- !u!114 &4012208307150492636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2547160249085456660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e282fedcc867d7242bbe7e2015b24c9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5568255374233183815
 GameObject:
   m_ObjectHideFlags: 0
