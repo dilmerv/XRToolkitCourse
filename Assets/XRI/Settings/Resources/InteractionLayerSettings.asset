@@ -23,7 +23,7 @@ MonoBehaviour:
   - RightHandOnly
   - RayInteractorsOnly
   - DirectInteractorsOnly
-  - 
+  - SocketContrainedOnly
   - 
   - 
   - 
