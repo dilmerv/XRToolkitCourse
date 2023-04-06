@@ -1133,7 +1133,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1860744496122594, guid: 0b4f2daea61c8c34bb57798b5b77e22d, type: 3}
       propertyPath: m_Name
-      value: WaterPump
+      value: WaterPumpGrab
       objectReference: {fileID: 0}
     - target: {fileID: 4412904317968242, guid: 0b4f2daea61c8c34bb57798b5b77e22d, type: 3}
       propertyPath: m_RootOrder
