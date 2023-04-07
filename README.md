@@ -14,3 +14,4 @@ XR Toolkit course supplemental source code examples and MVP project
 * **XRDirectRayPokeWithGrab:** This demo is an intro to XR Grab Interactable with physical components that allow you to throw a ball and aim at a basket
 * **XRSnapAndContinuous:** Example uses Locomotion System: including Continuous movement, Snap Turn, and Continuous Turn providers. Enable & Disable Continuous or Snap Turn providers on XR Origin to use one over the other
 * **XRTeleportation:** Another example of Locomotion where we use teleporting anchors and teleporting areas to quickly reach different places, move & snap rotation are also available
+* **XRCharacterAndGrabMove:** Another example of Locomotion where we use a character controller, a character driver, and one handed / two handed grab move providers for movement.
