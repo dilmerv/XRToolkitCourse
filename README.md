@@ -13,3 +13,4 @@ XR Toolkit course supplemental source code examples and MVP project
 * **XRDebuggingDemo:** This demo allows you to play a very basic game where your goal is simply to place the cone on top of the crate to win. We will be using this demo to show you how to debug
 * **XRDirectRayPokeWithGrab:** This demo is an intro to XR Grab Interactable with physical components that allow you to throw a ball and aim at a basket
 * **XRSnapAndContinuous:** Example uses Locomotion System: including Continuous movement, Snap Turn, and Continuous Turn providers. Enable & Disable Continuous or Snap Turn providers on XR Origin to use one over the other
+* **XRTeleportation:** Another example of Locomotion where we use teleporting anchors and teleporting areas to quickly reach different places, move & snap rotation are also available
