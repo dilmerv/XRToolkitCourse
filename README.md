@@ -26,3 +26,5 @@ XR Toolkit course supplemental source code examples and MVP project
 * **XRCharacterAndGrabMove:** Another example of Locomotion where we use a character controller, a character driver, and one handed / two handed grab move providers for movement
   
 * **XRInputDemo:** This demo demonstrates how to use Input Action Properties to capture input and how to send haptic impulses to controllers
+
+* **XRGrabTransformers:** This demo covers how to work with the various grab transformers for one hand or two hands. This allows you to set a priotity when trying to grab items with two hands, also add contraints when scaling objects among other grab features
