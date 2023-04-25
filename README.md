@@ -4,6 +4,16 @@ XR Toolkit course supplemental source code examples and MVP project
 💡 What is included in this repo? 
 * Includes Unity and .NET Console projects demonstrated with [VR Development With XR Interaction Toolkit](https://www.learnxr.io/vr-development-with-xr-toolkit)
 
+🎮 Unity Assets Included on this Unity Project: (Affiliate Links)
+
+Download the Unity Assets listed below which I've used in some of the Unity scene examples. Also once we get to the MVP Game, I will have you download a Paid Asset in which we've a multi-license for during learning purposes.
+
+* [Tools Kit](https://assetstore.unity.com/packages/3d/props/tools/free-tools-kit-155875?aid=1101l7LXo)
+* [Polygon Starter Pack](https://assetstore.unity.com/packages/3d/props/polygon-starter-pack-low-poly-3d-art-by-synty-156819?aid=1101l7LXo)
+* [Sci-FI Office Pack](https://assetstore.unity.com/packages/3d/environments/sci-fi/free-sci-fi-office-pack-195067?aid=1101l7LXo)
+* [Survival Game Tools](https://assetstore.unity.com/packages/3d/props/tools/survival-game-tools-139872?aid=1101l7LXo)
+* [iTween](https://assetstore.unity.com/packages/tools/animation/itween-84?aid=1101l7LXo)
+
 📚 Unity XR Toolkit Demo Scenes:
 * **XRDirectInteractorsWithSimple:** XR Direct interactors with XR Simple Interactables by controlling 3 flash lights and binding interactable events to LoggerUI
   
